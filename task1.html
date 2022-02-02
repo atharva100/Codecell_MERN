@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="task1.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="bucket"><br>  
+    <h1 align = "center" id="head">LOGIN</h1>  <br> 
+    <form>
+      <input id="email" type="text" name="email"
+      size="20" placeholder="Email" autocomplete="on">
+      <input id="pussyword" type="password" name="email" size="20" placeholder="Password" autocomplete="on">
+    </form>
+    <button id="button"><b>Login!</b></button><br><br><br>
+    <a href = https://www.kjscecodecell.com target="_blank" id="link">GO TO CODECELL PAGE!</a>  
+  </div>
+  <script>
+    var Details=new Array;
+    document.getElementById("button").onclick=function(){
+      Details[0] = document.getElementById("email").value;
+      Details[1] = document.getElementById("pussyword").value;
+      console.log(Details);
+      alert("You have logged in.");
+    }
+  </script> 
+</body>
+</html>
+
+
